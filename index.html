@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Weather</title>
+    
+    	<link rel='stylesheet' type='text/css' href='css/bootstrap/bootstrap.min.css'>
+    	<link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Ubuntu:400,500'>
+    	<link rel='stylesheet' type='text/css' href='css/style.css'>
+</head>
+
+<body>
+	<div class="container-fluid">
+    		<!--<div class="col-md-6 col-xs-12">-->
+      			<div class="row">
+        			$ <span class="element"></span>
+      			</div>
+      			<br>
+      			<div class="row">
+        			<span class="response"></span>
+      			</div>
+      			<br>
+      			<div class="row">
+        			<span class="response2"></span>
+      			</div>
+      			<br>
+	</div>
+	<div class="container">
+      		<div class="row">
+        		<div class="all-icon">
+          			<div class="icon sun-shower hide ">
+            				<div class="cloud"></div>
+            				<div class="sun">
+              					<div class="rays"></div>
+            				</div>
+            				<div class="rain"></div>
+          			</div>
+          			<div class="icon thunder-storm hide thunderstom">
+            				<div class="cloud"></div>
+            				<div class="lightning">
+              					<div class="bolt"></div>
+              					<div class="bolt"></div>
+            				</div>
+          			</div>
+          			<div class="icon cloudy hide clouds">
+            				<div class="cloud"></div>
+            				<div class="cloud"></div>
+          			</div>
+          			<div class="icon flurries hide snow">
+            				<div class="cloud"></div>
+            				<div class="snow">
+              					<div class="flake"></div>
+              					<div class="flake"></div>
+            				</div>
+          			</div>
+          			<div class="icon sunny hide clear">
+            			<div class="sun">
+              					<div class="rays"></div>
+            				</div>
+          			</div>
+          			<div class="icon rainy hide rain">
+            				<div class="cloud"></div>
+            				<div class="rain"></div>
+          			</div>
+      			</div>
+    		</div>
+  	</div>
+  	<br>
+	<div class="text-center poweredBy footer">
+    		<span>Powered By <a href="http://www.mattboldt.com/demos/typed-js/" target="_blank" class="link">Typed.js</a> / <a href="http://openweathermap.org/" target="_blank" class="link">Open Weather Map</a> && Inspired By <a href="http://codepen.io/FreeCodeCamp/pen/bELRjV?editors=0010" target="_blank" class="link">joshbader</a> 
+  	</div>
+</body>
+
+<script src='js/jquery/jquery-2.2.2.min.js'></script>
+<script src='js/typed/typed.js'></script>
+<script src='js/index.js'></script>
+
+</html>
